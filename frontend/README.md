@@ -1,7 +1,9 @@
 <!-- AI_GENERATE_START -->
 # 前端工程
 
-当前仅初始化目录；框架、语言、构建与测试工具尚未确认，无启动命令。请先读 [前端架构](../doc/architecture/前端架构.md) 和 [前端规则](../skills/pstock-development/references/frontend-rules.md)。
+前端技术基线已确认：React、严格 TypeScript、Vite、React Router、Ant Design、ECharts、TanStack Query、按需 Zustand、CSS Modules，以及 Vitest / React Testing Library / Playwright。行情图初选 Lightweight Charts，KLineChart 保留作对比候选。
+
+当前仍只有目录骨架，没有安装依赖、创建应用或执行构建；准确版本、运行工具和接口细节待确定，无可用启动命令。请先读 [前端架构](../doc/architecture/前端架构.md) 和 [前端规则](../skills/pstock-development/references/frontend-rules.md)。
 
 | 目录 | 职责 |
 |---|---|
