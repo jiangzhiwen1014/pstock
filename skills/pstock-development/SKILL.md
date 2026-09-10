@@ -25,6 +25,7 @@ description: 在 PStock 仓库初始化或调整目录、维护独立版本需�
 | 前端页面、组件、状态或客户端 | [前端规则](references/frontend-rules.md) |
 | 后端接口、事务、任务或仓储 | [后端规则](references/backend-rules.md) |
 | 数据接入、策略、账户、模拟、收益 | [数据规则](references/data-rules.md) |
+| 引用、提取或升级第三方数据源 | [上游规则](references/upstream-rules.md) |
 | 任何文件修改、检查、交付或提交 | [交付规则](references/delivery-rules.md) |
 
 ## 可复用文档模板

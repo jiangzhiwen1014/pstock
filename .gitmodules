@@ -1,0 +1,5 @@
+# AI_GENERATE_START
+[submodule "third_party/a-stock-data"]
+	path = third_party/a-stock-data
+	url = https://github.com/simonlin1212/a-stock-data.git
+# AI_GENERATE_END

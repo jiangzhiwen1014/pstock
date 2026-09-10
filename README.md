@@ -18,8 +18,12 @@
 | [项目规则](AGENTS.md) | 授权、协作、规则引用与交接 |
 | [项目 Skill](skills/pstock-development/SKILL.md) | 按任务读取开发、文档、数据和交付规范 |
 | [项目检查](scripts/README.md) | 目录、链接、文档对应和注解检查 |
+| [开源数据源维护](doc/architecture/开源数据源维护.md) | a-stock-data 固定版本、初始化、适配、升级与回退 |
 
 需求采用 `doc/requirements/PS-编号-标题/1.0.0/`，对应详设采用 `doc/sprint/PS-编号-标题/1.0.0/`。版本属于单个需求，不是产品发布版本。
 
 从仓库根目录启动 Claude Code；[CLAUDE.md](CLAUDE.md) 导入通用规则和项目 Skill。换用 DeepSeek 后仍使用这套项目规则。模型连接、服务地址和凭据由开发工具管理，不写入仓库。
+## 上游项目初始化
+
+已通过 Git submodule 引入 `third_party/a-stock-data`，保留上游原版。现有工作区在根目录执行 `git submodule update --init --recursive --checkout` 恢复父仓库固定的版本；首次克隆方式见维护文档。当前只接入上游代码参考，未安装取数依赖或实现数据采集。
 <!-- AI_GENERATE_END -->

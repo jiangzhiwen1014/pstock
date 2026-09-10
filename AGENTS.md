@@ -23,6 +23,7 @@
 | 前端实现 | [前端规则](skills/pstock-development/references/frontend-rules.md) |
 | 后端或接口实现 | [后端规则](skills/pstock-development/references/backend-rules.md) |
 | 数据、账户、策略、回测 | [数据规则](skills/pstock-development/references/data-rules.md) |
+| 引用、适配或升级第三方数据源 | [上游规则](skills/pstock-development/references/upstream-rules.md) |
 | 修改文件、验证或提交 | [交付规则](skills/pstock-development/references/delivery-rules.md) |
 
 ## 事实来源
