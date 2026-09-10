@@ -1,7 +1,7 @@
 <!-- AI_GENERATE_START -->
 # PStock 项目开发规则
 
-适用于当前仓库中的 Claude、DeepSeek 及其他开发代理。目录初始化已获授权；业务需求骨架尚未批准。前端基线已确认，见 [前端技术框架](doc/architecture/前端架构.md)；后端与精确依赖版本待确认。
+适用于当前仓库中的 Claude、DeepSeek 及其他开发代理。目录初始化已获授权；业务需求骨架尚未批准。前端基线已确认，见 [前端技术框架](doc/architecture/前端架构.md)；[后端基线](doc/architecture/后端架构.md) 已落地为 Python/FastAPI、PostgreSQL 和数据库任务表，精确依赖版本待验证。
 
 ## 授权与协作
 

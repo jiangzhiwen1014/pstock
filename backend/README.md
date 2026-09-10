@@ -1,7 +1,7 @@
 <!-- AI_GENERATE_START -->
 # 后端工程
 
-当前仅初始化目录；语言、框架、数据库与任务工具尚未确认，`src/pstock/` 是逻辑代码包边界，不构成 Python 或其他语言选型。没有启动命令。
+技术基线为 Python + FastAPI + PostgreSQL + SQLAlchemy/Psycopg + Alembic，API 与 worker 共用 `src/pstock/`。初期一个 API 进程、一个后台执行槽，任务状态存入数据库，暂不引入 Redis/RQ。当前只有目录和文档，没有依赖清单、业务源码或可执行启动命令；精确版本待工程初始化验证。
 
 先读 [后端架构](../doc/architecture/后端架构.md) 和 [后端规则](../skills/pstock-development/references/backend-rules.md)。
 
@@ -14,7 +14,7 @@
 | src/pstock/infrastructure | 数据库连接、缓存、运行状态等公共设施 |
 | src/pstock/jobs | 定时或异步任务触发、重试入口 |
 | src/pstock/shared | 金额、时间和标识等公共基础类型 |
-| migrations | 数据库结构迁移，选型后才增加真实迁移 |
+| migrations | Alembic 数据库迁移，需求详设批准后才增加真实脚本 |
 | tests | 正式维护的后端测试 |
 
 [业务模块索引](src/pstock/modules/README.md) 定义归属。portfolio 已建立四层样板，其他模块按需求创建内部层级。
