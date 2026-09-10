@@ -1,0 +1,31 @@
+# AI_GENERATE_START
+# 本机私有配置与凭据
+.env
+.env.*
+!.env.example
+!.env.*.example
+CLAUDE.local.md
+.claude/settings.local.json
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+htmlcov/
+# 本地运行数据、日志与工具缓存
+/runtime/
+/data/
+/logs/
+/tmp/
+*.log
+.DS_Store
+Thumbs.db
+# AI_GENERATE_END
