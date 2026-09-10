@@ -9,7 +9,7 @@
 
 | 入口 | 内容 |
 |---|---|
-| [V1.0.0 一期需求](doc/requirements/V1.0.0-一期需求总览.md) | 一期范围、8项独立需求、规则及验收 |
+| [V1.0.0 一期需求](doc/requirements/V1.0.0-一期需求总览.md) | 全A公司资料库、一期范围、8项独立需求及验收 |
 | [文档中心](doc/README.md) | 架构、按需求独立版本管理的需求与开发详设 |
 | [前端技术框架](doc/architecture/前端架构.md) | 已确认选型、状态管理、图表封装、建设与验收计划 |
 | [后端技术框架](doc/architecture/后端架构.md) | Python/FastAPI、PostgreSQL、持久任务与实时性演进 |
